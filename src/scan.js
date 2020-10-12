@@ -1,6 +1,3 @@
-# redis_query
-
-```javascript
 const redis = require('redis');
 const redisScan = require('node-redis-scan');
  
@@ -23,9 +20,3 @@ scanner.scan('redisKey 1*', (err, matchingKeys) => {
   if (err) throw(err);
   console.log(matchingKeys);
 });
-```
-
-
-
-
-

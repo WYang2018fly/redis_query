@@ -1,0 +1,17 @@
+{
+  "name": "redis_query",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/WYang2018fly/redis_query.git",
+  "author": "wangyang <wyang@shgbit.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "ioredis": "^4.17.3",
+    "lodash": "^4.17.20",
+    "node-redis-scan": "^1.2.1",
+    "redis": "^3.0.2"
+  }
+}
